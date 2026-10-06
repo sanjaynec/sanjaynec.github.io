@@ -698,7 +698,7 @@ section {
   aspect-ratio: 16/10;
   border: 1px solid var(--border-glass);
 }
-.project-preview--threadlens,
+.project-preview--threatlens,
 .project-preview--spotscape,
 .project-preview--reconforge {
   display: flex;
@@ -708,7 +708,7 @@ section {
   isolation: isolate;
   color: #fff;
 }
-.project-preview--threadlens {
+.project-preview--threatlens {
   background: radial-gradient(circle at 72% 38%, rgba(77, 219, 255, .38), transparent 24%),
     linear-gradient(135deg, #071722, #12354d 58%, #06111d);
 }
@@ -720,7 +720,7 @@ section {
   background: radial-gradient(circle at 73% 42%, rgba(175, 116, 255, .4), transparent 24%),
     linear-gradient(135deg, #1d1431, #39225a 60%, #101325);
 }
-.project-preview--threadlens::before,
+.project-preview--threatlens::before,
 .project-preview--spotscape::before,
 .project-preview--reconforge::before {
   content: '';
